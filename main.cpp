@@ -1,8 +1,11 @@
 #include <iostream>
-#include ""
+#include "cc_functions.hpp"
 
 
 int main() {
 
+  std::cout << "Input USD Amount: " << "\n";
+  std::cin << usd
+  
 
 }
