@@ -1,3 +1,3 @@
-double usd;
+int usd;
 string form;
 
