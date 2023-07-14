@@ -15,7 +15,7 @@ int main() {
 
 if form = "Euro" {
 
-  
+  int amount_U2E = usd * 0.8894
 
   
 }
