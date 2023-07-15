@@ -1,3 +1,3 @@
 double usd;
-string form;
+std::string form;
 
