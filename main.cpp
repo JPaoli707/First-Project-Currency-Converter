@@ -11,7 +11,8 @@ int main() {
   std::cout << "What form would you like to convert this too:" << "\n" 
     << "- Euro" << "\n"
     << "- Yuan" << "\n"
-    << "- Peso" << "\n";
+    << "- Peso" << "\n"
+    << "- Credit" << "\n";
   std::cin >> form;
 
 
@@ -45,6 +46,16 @@ else if (form == "Peso") {
   
 }
 
+//Star Wars Credit Conversion:
+  
+else if (form == "Credit") {
+
+  int amount_U2C = usd * 1.44;
+
+  std::cout << "Your amount is " << amount_U2C << " Credits" << "\n";
+  
+}
+  
 //Loop:
 
 else {
