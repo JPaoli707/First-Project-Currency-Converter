@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 #include "cc_functions.hpp"
 
 
@@ -17,7 +16,7 @@ int main() {
 
 //European Euro Conversion:
   
-if form = "Euro" {
+if (form = "Euro") {
 
   int amount_U2E = usd * 0.89;
 
@@ -27,7 +26,7 @@ if form = "Euro" {
 
 //Chinese Yuan Conversion:
 
-if form = "Yuan" {
+else if (form = "Yuan") {
 
   int amount_U2Y = usd * 7.14;
   
@@ -37,7 +36,7 @@ if form = "Yuan" {
 
 //Mexican Peso Conversion:
 
-if form = "Peso" {
+else (form = "Peso") {
 
   int amount_U2P = usd * 16.75;
   
